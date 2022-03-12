@@ -1,0 +1,40 @@
+body {
+    background: url("../Images/learn.jpg")no-repeat;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ .navbar {
+    position: relative;
+}
+
+ .navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    background-color: aqua;
+
+}
+
+ .navbar ul li  {
+    margin: 0 1.5rem;
+}
+
+ .navbar ul li a {
+    font-size: 2rem;
+    color: orange;
+}
+
+ .navbar ul li a:hover {
+    color: gold;
+
+}
+
+ul li ul li {
+    display: none;
+}
+
+ul li:hover ul li {
+    display: block;
+}
